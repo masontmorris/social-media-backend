@@ -1,28 +1,30 @@
 {
-  "name": "social-media-backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/masontmorris/social-media-backend.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/masontmorris/social-media-backend/issues"
-  },
-  "homepage": "https://github.com/masontmorris/social-media-backend#readme",
-  "dependencies": {
-    "dayjs": "^1.11.4",
-    "express": "^4.18.1",
-    "mongoose": "^6.4.6"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.19"
-  }
+    "name": "social-media-backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "watch": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/masontmorris/social-media-backend.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/masontmorris/social-media-backend/issues"
+    },
+    "homepage": "https://github.com/masontmorris/social-media-backend#readme",
+    "dependencies": {
+        "dayjs": "^1.11.4",
+        "express": "^4.18.1",
+        "mongoose": "^6.4.6"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.19"
+    }
 }
